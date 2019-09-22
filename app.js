@@ -31,10 +31,9 @@ app.post('/login', verifyUser);
 app.post('/register', registerUser);
 app.use('/comment', verifyToken, comment);
 
-// app.get('*', function (req, res) {
-//     console.log("SEND FILE!!");
-//     res.sendFile(__dirname + '/dist/chat-app-frontend/index.html');
-// });
+app.get('*', function (req, res) {
+    res.sendFile(__dirname + '/dist/commento-hollic-frontend/index.html');
+});
 
 // Error Handler
 app.use(function (err, req, res, next) {
