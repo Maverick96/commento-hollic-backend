@@ -1,0 +1,38 @@
+{
+    "t-development": {
+        "username": "sql12304353",
+        "password": "zJc57JC2Cu",
+        "database": "sql12304353",
+        "host": "sql12.freemysqlhosting.net",
+        "dialect": "mysql",
+        "operatorsAliases": false,
+        "logging": false
+    },
+    "development": {
+        "username": "root",
+        "password": "root@123",
+        "database": "comment_o_hollic",
+        "host": "127.0.0.1",
+        "dialect": "mysql",
+        "operatorsAliases": false,
+        "logging": false
+    },
+    "test": {
+        "username": "sql12303063",
+        "password": "fHHnl9WitW",
+        "database": "sql12303063",
+        "host": "sql12.freemysqlhosting.net",
+        "dialect": "mysql",
+        "operatorsAliases": false,
+        "logging": false
+    },
+    "production": {
+        "username": "sql12304353",
+        "password": "zJc57JC2Cu",
+        "database": "sql12304353",
+        "host": "sql12.freemysqlhosting.net",
+        "dialect": "mysql",
+        "operatorsAliases": false,
+        "logging": false
+    }
+}
