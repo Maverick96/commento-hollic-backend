@@ -29,6 +29,10 @@ module.exports = (sequelize, DataTypes) => {
                 model: 'Users',
                 key: 'userId'
             }
+        },
+        name: {
+            type: DataTypes.STRING,
+            allowNull: false
         }
     }, {});
     Comment.associate = function (models) {
