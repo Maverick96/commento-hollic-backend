@@ -24,7 +24,7 @@ const registerUser = require('./routes/register');
 const comment = require('./routes/comment');
 
 
-app.use(express.static('dist/chat-app-frontend' || ''));
+app.use(express.static('dist/commento-hollic-frontend' || ''));
 
 //routes
 app.post('/login', verifyUser);
